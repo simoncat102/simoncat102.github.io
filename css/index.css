@@ -1,0 +1,84 @@
+.logo {
+    width: 18%;
+    height: 18%;
+    margin-top: 5px;
+    padding: 0;
+}
+
+.footer-logo {
+    height: 25px;
+    margin: 5%;
+}
+
+.stat-wrap {
+    background: #037ef3;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+}
+
+.count-font {
+    font-family: Microsoft JhengHei;
+    color: white;
+    font-size: 2.5vmin;
+    font-weight: 650;
+}
+
+.section-count {
+    padding: 0 0
+}
+
+.ogvImg {
+    height: 13%;
+    width: 13%;
+    float: left;
+
+}
+
+.ogvImg1 {
+    height: 25%;
+    width: 25%;
+    float: left;
+
+}
+
+.title {
+    margin-top: 7%;
+}
+
+.sectionColorGray {
+    background-color: #F5EBE9;
+}
+
+.header-title {
+    font-size: 3vmin;
+}
+
+.header-info {
+    font-size: 2vmin;
+}
+
+.services-info {
+    font-size: 2.3vmin;
+}
+
+.description{
+    font-size: 2.5vmin;
+    line-height: 30px !important;
+}
+
+/*mobile css*/
+@media screen and (max-width:480px) {
+    .header-info {
+        font-size: 2vmin;
+    }
+
+    .mobile-hidden {
+        display: none;
+    }
+}
